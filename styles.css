@@ -1,0 +1,112 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    left: 350px;
+    height: 350px;
+    width: 550px;
+    box-shadow: 1px 2px 3px 1px #7c7279;
+    padding: 30px;
+    background-color: #ECECEC;
+}
+
+.sign{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input{
+    border: 0;
+    border-bottom: 2px solid #c9c9c9 ;
+    background-color: transparent;
+    color: #7c7279;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.username{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.email{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.password{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.button{
+    position: absolute;
+    margin-top: 40px;
+    padding: 6px;
+    width: 120px;
+    border:  #21a085;
+    background-color: #21a085;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;   
+}
+
+div .or {
+    position: absolute;
+    left: 230px;
+    top: 150px;
+    border: 0;
+    border-radius: 20px 20px 20px 20px ;
+    box-shadow: -0.1px 2px #bbbbbb;
+    padding: 8px;
+    background-color: #dedddd ;
+}
+
+div .facebook, .twitter, .google{
+    position: relative;
+    left: 280px;
+    bottom: 120px;
+}
+
+.facebook{
+    width: 200px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: #33528c;
+    border: 1px solid #33528c;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px ;
+    font-size: small;
+}
+
+.twitter{
+    width: 200px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: #59ADEA;
+    border: 1px solid #59ADEA;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.google{
+    width: 200px;
+    height: 30px;
+    padding-top: 5px;
+    background-color: #dc4c41;
+    border: 1px solid #dc4c41;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+}
